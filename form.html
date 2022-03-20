@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+</head>
+<body>
+    <h1>User Form</h1>
+    <form>
+<fieldset>
+ <legend>User Data</legend>
+ <!-- name -->
+ <label for="name">Your Name</label>
+ <input id="name" type="text" placeholder="Enter Your Name"><br><br>
+ <!-- email -->
+ <label for="email">Email</label>
+ <input id="email" type="email" placeholder="Enter Email"><br><br>
+ <!-- phone number -->
+ <label for="Phone">Phone</label>
+ <input id="Phone" type="number" placeholder="+880-XXX-XXXX-789"><br><br>
+ <!-- password -->
+ <label for="password">Password</label>
+ <input id="password" type="password" placeholder="Enter Password"><br><br>
+<!-- country name -->
+<label for="Country">Your Country:</label>
+<select name="" id="Country">
+<option value="Bangladesh">Bangladesh</option>
+<option value="Canada">Canada</option>
+<option value="UK">UK</option>
+<option value="Italy">Italy</option>
+<option value="India">India</option>
+<option value="Pakistan">Pakistan</option>
+</select> <br><br>
+<!-- gender -->
+<label for="Gender">Gender:</label><br><br>
+<input name="gender" id="male" type="radio">
+<label for="male">Male</label>
+<input name="gender" id="female" type="radio">
+<label for="female">Female</label><br><br>
+<!-- birth-date -->
+<label for="birth">Date of Birth</label>
+<input type="date"><br><br>
+<!-- image -->
+<label for="Upload">Upload Your Image:</label><br><br>
+<input id="Upload" type="file"><br><br>
+<!-- Massage -->
+<label for="Massage">Any Massage for Admin?</label><br>
+<textarea name="" id="Massage" cols="30" rows="5"></textarea><br><br>
+<!-- terms and conditions -->
+<input type="checkbox" id="check">
+<label for="check">Agree to our <a href="https://codemanbd.com/">privacy and policy</a></label><br><br>
+<!-- submit -->
+<input value="Submit Form" type="submit">
+<!-- reset -->
+<input type="reset" name="" id="">
+</fieldset>
+ </form>
+</body>
+</html>
